@@ -6,10 +6,10 @@
     <title>Document</title>
     <link rel="stylesheet" href="../public/output.css" />
 </head>
-<body class="mx-[24px]">
+<body class="sm:mx-[24px]">
     <!----------------- header Start here ----------------->
-    <header >
-        <nav class="hidden sm:flex items-center justify-between h-[64px] ">       <!-- menubar desktop -->
+    <header class="mx-[16px] " >
+        <nav class=" hidden sm:flex justify-between h-[64px]  items-center ">       <!-- menubar desktop -->
             <a href="#" class="flex items-center  h-[32px] ">     <!-- logo  -->
                 <img src="/public/images/ic-logo.svg" alt="logo">
                 <span class=""><strong>COLMAR</strong>ACADEMY</span>
@@ -23,7 +23,7 @@
             </ul>
         </nav>
 
-        <nav class="flex sm:hidden ">      <!-- menu mobile -->
+        <nav class="flex sm:hidden justify-between h-[64px] items-center">      <!-- menu mobile -->
             <a href="#"><img src="/public/images/ic-logo.svg" alt="logo"></a>
             <a href="#"><img src="/public/images/ic-on-campus.svg" alt="On campus"></a>
             <a href="#"><img src="/public/images/ic-online.svg" alt="Online"></a>
@@ -32,5 +32,24 @@
     </header>       
     <!------------------- header End here ------------------------>
 
+    <!------------------- main start here ------------------------>
+            
+    <main class="">
+        <section class="flex flex-col bg-slate-300
+        items-center lg:gap-[24px]  ">      <!------------ Sec(1) Start here ------------>
+
+            <div class=" mx-0  w-full lg:w-[60%] ">
+                <img src="/public/images/banner.jpg" alt="banner" class="w-full" >
+            </div>
+            <div class="mx-[16px] py-[32px] ">
+                <div class="">
+                    <h2 class="text-3xl font-bold">Learn something new everyday</h2>
+                    <p class="mt-[32px] text-2xl font-semibold">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    <button class="text-2xl font-bold mt-[24px] bg-gray-400 text-white w-full py-[8px]  hover:bg-blue-500 transition duration-300 ">Start here</button>
+                </div>
+            </div>
+
+        </section>      <!------------ Sec(1) End here ------------>
+    </main>
 </body>
 </html>

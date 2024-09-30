@@ -11,7 +11,7 @@
     <header class="sm:mx-[24px]" >
         <nav class=" hidden sm:flex h-[64px]  items-center justify-between ">       <!-- menubar desktop -->
             <a href="#" class="flex items-center  h-[32px] ">     <!-- logo  -->
-                <img src="/public/images/ic-logo.svg" alt="logo">
+                <img src="./images/ic-logo.svg" alt="logo">
                 <span class="h-[32px]"><strong>COLMAR</strong>ACADEMY</span>
             </a> 
 
@@ -24,10 +24,10 @@
         </nav>
 
         <nav class="flex sm:hidden justify-around h-[64px] items-center">      <!-- menu mobile -->
-            <a href="#"><img src="/public/images/ic-logo.svg" alt="logo"></a>
-            <a href="#"><img src="/public/images/ic-on-campus.svg" alt="On campus"></a>
-            <a href="#"><img src="/public/images/ic-online.svg" alt="Online"></a>
-            <a href="#"><img src="/public/images/ic-login.svg" alt="Sign in"></a>            
+            <a href="#"><img src="./images/ic-logo.svg" alt="logo"></a>
+            <a href="#"><img src="./images/ic-on-campus.svg" alt="On campus"></a>
+            <a href="#"><img src="./images/ic-online.svg" alt="Online"></a>
+            <a href="#"><img src="./images/ic-login.svg" alt="Sign in"></a>            
         </nav>
     </header>       
     <!------------------- header End here ------------------------>
@@ -58,7 +58,7 @@
 
             <div class="hidden sm:flex sm:flex-col sm:w-[60%] sm:mr-[24px]"> <!-- Container left Sec(2) Start here -->
                 <div class="w-full flex justify-center mb-[32px]"> 
-                    <img src="/public/images/information-main.jpg" alt="information" class="w-auto h-auto">
+                    <img src="./images/information-main.jpg" alt="information" class="w-auto h-auto">
                 </div>
                 <h2 class="text-3xl font-bold mb-[24px]">It doesn't hurt to keep practicing</h2>
                 <p class="mb-[24px] ">
@@ -70,10 +70,10 @@
             <div class=" sm:w-[40%] ">    <!-- Container Right Sec(2) Start here -->
                 <div class="mb-[64px] sm:m-0 sm:p-[16px] sm:flex sm:bg-slate-300 sm:hover:bg-slate-400 transition duration-300">    <!-- Card(1) infor -->
                     <div class="hidden sm:flex sm:h-auto sm:w-[35%]">
-                        <img src="/public/images/information-orientation.jpg" alt="Orientation"  class="w-full h-auto object-cover">
+                        <img src="./images/information-orientation.jpg" alt="Orientation"  class="w-full h-auto object-cover">
                     </div>
                     <div class="sm:hidden">
-                        <img src="/public/images/information-orientation-mobile.jpg" alt="Orientation">
+                        <img src="./images/information-orientation-mobile.jpg" alt="Orientation">
                     </div>
                     <div class="ml-[16px] mt-[16px] sm:w-[65%]">
                         <h4 class="text-2xl font-semibold">Orientation date</h4>
@@ -84,10 +84,10 @@
 
                 <div class="mb-[64px] sm:m-0 sm:p-[16px] sm:flex sm:bg-slate-300 sm:hover:bg-slate-400 transition duration-300">    <!-- Card(2) infor -->
                     <div class="hidden sm:flex sm:h-auto sm:w-[35%]">
-                        <img src="/public/images/information-campus.jpg" alt="Our campus"  class="w-full h-auto object-cover">
+                        <img src="./images/information-campus.jpg" alt="Our campus"  class="w-full h-auto object-cover">
                     </div>
                     <div class="sm:hidden">
-                        <img src="/public/images/information-campus-mobile.jpg" alt="Our campus">
+                        <img src="./images/information-campus-mobile.jpg" alt="Our campus">
                     </div>
                     <div class="ml-[16px] mt-[16px] sm:w-[65%]">
                         <h4 class="text-2xl font-semibold">Our campus</h4>
@@ -98,10 +98,10 @@
 
                 <div class="mb-[64px] sm:m-0 sm:p-[16px] sm:flex sm:bg-slate-300 sm:hover:bg-slate-400 transition duration-300">    <!-- Card(3) infor -->
                     <div class="hidden sm:flex sm:h-auto sm:w-[35%]">
-                        <img src="/public/images/information-guest-lecture.jpg" alt="Our guest lecture"  class="w-full h-auto object-cover">
+                        <img src="./images/information-guest-lecture.jpg" alt="Our guest lecture"  class="w-full h-auto object-cover">
                     </div>
                     <div class="sm:hidden">
-                        <img src="/public/images/information-guest-lecture-mobile.jpg" alt="Our guest lecture">
+                        <img src="./images/information-guest-lecture-mobile.jpg" alt="Our guest lecture">
                     </div>
                     <div class="ml-[16px] mt-[16px] sm:w-[65%]">
                         <h4 class="text-2xl font-semibold">Our guest lecture</h4>
@@ -116,131 +116,118 @@
 
             <!------------ Sec(3) Start here --------------------------------------------------------------------------->
 
-        <section class=" mx-[16px] ">    
+        <section class=" mx-[16px] sm:pb-[32px] ">    
 
             <h2 class="text-3xl font-bold text-center mx-auto mb-[16px] sm:my-[32px]  ">Start learning</h2>
-            <div class="container-card-course">
+            <div class="sm:my-[0px] sm:mx-[72px]">
 
-                <div class="sm:flex">      <!-- Card Course Sec(1) Start here --> 
+                <div class="grid grid-cols-1 sm:grid-cols-3 sm:gap-x-[32px] ">      <!-- Card Course Sec(1) Start here --> 
 
+                    <div class="mb-[8px] ">
+                        <div class="hidden sm:flex">
+                            <img class="w-full" src="./images/course-software.jpg" alt="Software engineering">
+                        </div>
+                        
+                        <div class="bg-gray-300 hover:bg-blue-300 transition duration-300 sm:py-[16px]" >
+                            <h4 class="text-2xl font-semibold pl-[16px] pt-[16px] pb-[24px] sm:pt-[0px] sm:pb-0 sm:pl-[16px] ">Software engineering</h4>
+                            <p class="hidden sm:flex sm:pl-[16px] sm:my-[8px]">COURSES</p>
+                            <p class="hidden sm:flex sm:pl-[16px]">Web Development, Mobile Development, iOT,APIs</p>
+                        </div>
+                    </div>
+                    
+                    <div class="mb-[8px] ">
+                        <div class="hidden sm:flex">
+                            <img class="w-full" src="./images/course-computer-art.jpg" alt="Computer art">
+                        </div>
+                    
+                        <div class="bg-gray-300 hover:bg-blue-300 transition duration-300 sm:py-[16px]" >
+                            <h4 class="text-2xl font-semibold pl-[16px] pt-[16px] pb-[24px] sm:pt-[0px] sm:pb-0 sm:pl-[16px] ">Computer art</h4>
+                            <p class="hidden sm:flex sm:pl-[16px] sm:my-[8px]">COURSES</p>
+                            <p class="hidden sm:flex sm:pl-[16px]">Imaging & Design, Web Design, Motion Graphics & Visual Effects, Computer Animation</p>
+                        </div>
+                    </div>
+                    
                     <div class="mb-[8px]">
                         <div class="hidden sm:flex">
-                            <img src="/public/images/course-software.jpg" alt="Software engineering">
+                            <img class="w-full" src="./images/course-design.jpg" alt="Design">
                         </div>
-                        
-                        <div class="bg-gray-300 hover:bg-blue-300 transition duration-300" >
-                            <h4 class="text-2xl font-semibold pl-[16px] pt-[16px] pb-[24px] sm:p-0 ">Software engineering</h4>
-                            <p class="hidden sm:flex">COURSES</p>
-                            <p class="hidden sm:flex">Web Development, Mobile Development, iOT,APIs</p>
+                    
+                        <div class="bg-gray-300 hover:bg-blue-300 transition duration-300 sm:py-[16px]" >
+                            <h4 class="text-2xl font-semibold pl-[16px] pt-[16px] pb-[24px] sm:pt-[0px] sm:pb-0 sm:pl-[16px] ">Design</h4>
+                            <p class="hidden sm:flex sm:pl-[16px] sm:my-[8px]">COURSES</p>
+                            <p class="hidden sm:flex sm:pl-[16px]">User Experience Design, User Research, Visual Design</p>
                         </div>
                     </div>
                     
                     <div class="mb-[8px]">
-                        <div class="hidden">
-                            <img src="/public/images/course-software.jpg" alt="Software engineering">
+                        <div class="hidden sm:flex">
+                            <img class="w-full" src="./images/course-data.jpg" alt="Data">
                         </div>
-                   
-                        <div class="bg-gray-300 hover:bg-blue-300 transition duration-300">
-                            <h4 class="text-2xl font-semibold pl-[16px] pt-[16px] pb-[24px] ">Computer art</h4>
-                            <p class="hidden">COURSES</p>
-                            <p class="hidden">
-                                Imaging & Design, Web Design, Motion Graphics & Visual Effects, Computer Animation
-                            </p>
+                    
+                        <div class="bg-gray-300 hover:bg-blue-300 transition duration-300 sm:py-[16px]" >
+                            <h4 class="text-2xl font-semibold pl-[16px] pt-[16px] pb-[24px] sm:pt-[0px] sm:pb-0 sm:pl-[16px] ">Data</h4>
+                            <p class="hidden sm:flex sm:pl-[16px] sm:my-[8px]">COURSES</p>
+                            <p class="hidden sm:flex sm:pl-[16px]">Data Science, Big Data, SQL, Data Visualization</p>
                         </div>
                     </div>
-
-                    <div class="mb-[8px]">
-                        <div class="hidden">
-                            <img src="/public/images/course-design.jpg" alt="Design">
-                        </div>
-                       
-                        <div class="bg-gray-300 hover:bg-blue-300 transition duration-300">
-                            <h4 class="text-2xl font-semibold pl-[16px] pt-[16px] pb-[24px] ">Design</h4>
-                            <p class="hidden">COURSES</p>
-                            <p class="hidden">User Experience Design, User Research, Visual Design</p>
-                        </div>
-                    </div>
-                </div>      <!-- Card Course Sec(1) End here --> 
-
-                <div class="card-course-sec2">     <!-- Card Course Sec(2) Start here --> 
-
                     
                     <div class="mb-[8px]">
-                        <div class="hidden">
-                            <img src="/public/images/course-data.jpg" alt="Data">
+                        <div class="hidden sm:flex">
+                            <img class="w-full" src="./images/course-business.jpg" alt="Business">
                         </div>
-                       
-                        <div class="bg-gray-300 hover:bg-blue-300 transition duration-300">
-                            <h4 class="text-2xl font-semibold pl-[16px] pt-[16px] pb-[24px] ">Data</h4>
-                            <p class="hidden">COURSES</p>
-                            <p class="hidden">Data Science, Big Data, SQL, Data Visualization</p>
+                    
+                        <div class="bg-gray-300 hover:bg-blue-300 transition duration-300 sm:py-[16px]" >
+                            <h4 class="text-2xl font-semibold pl-[16px] pt-[16px] pb-[24px] sm:pt-[0px] sm:pb-0 sm:pl-[16px] ">Business</h4>
+                            <p class="hidden sm:flex sm:pl-[16px] sm:my-[8px]">COURSES</p>
+                            <p class="hidden sm:flex sm:pl-[16px]">Product Development, Business Development, Startup</p>
                         </div>
                     </div>
-                    
-
                     
                     <div class="mb-[8px]">
-                        <div class="hidden">
-                        <img src="/public/images/course-business.jpg" alt="Business">
+                        <div class="hidden sm:flex">
+                            <img class="w-full" src="./images/course-marketing.jpg" alt="Marketing">
                         </div>
-                        
-    
-                        <div class="bg-gray-300 hover:bg-blue-300 transition duration-300">
-                            <h4 class="text-2xl font-semibold pl-[16px] pt-[16px] pb-[24px] ">Business</h4>
-                            <p class="hidden">COURSES</p>
-                            <p class="hidden">Product Development, Business Development, Startup</p>
+                    
+                        <div class="bg-gray-300 hover:bg-blue-300 transition duration-300 sm:py-[16px]" >
+                            <h4 class="text-2xl font-semibold pl-[16px] pt-[16px] pb-[24px] sm:pt-[0px] sm:pb-0 sm:pl-[16px] ">Marketing</h4>
+                            <p class="hidden sm:flex sm:pl-[16px] sm:my-[8px]">COURSES</p>
+                            <p class="hidden sm:flex sm:pl-[16px]">Analytics, Content Marketing, Mobile Marketing</p>
                         </div>
                     </div>
-                    
-
-                        <div class="mb-[8px]">
-                            <div class="hidden">
-                                <img src="/public/images/course-marketing.jpg" alt="Marketing">
-                            </div>
-                           
-        
-                            <div class="bg-gray-300 hover:bg-blue-300 transition duration-300">
-                                <h4 class="text-2xl font-semibold pl-[16px] pt-[16px] pb-[24px] ">Marketing</h4>
-                                <p class="hidden">COURSES</p>
-                                <p class="hidden">Analytics, Content Marketing, Mobile Marketing</p>
-                        </div>
-                    </div>
-                    
-                </div>      <!-- Card Course Sec(2) End here --> 
-            </div>
+            </div>        
 
         </section>      <!------------ Sec(3) End here ------------>
 
          <!------------ Sec(4) Start here -------------------------------------------------------------------------------------------->
-        <section class="mt-[32px] ">       
+        <section class="mt-[32px] sm:mx-[24px] ">       
 
-            <h2 class="text-3xl font-bold text-center mx-auto mb-[16px] " >Thesis exhibit</h2>
+            <h2 class="text-3xl font-bold text-center mx-auto mb-[16px]  sm:my-[32px] " >Thesis exhibit</h2>
 
-            <div class="">
-                <div class="content-thesis-left">       <!-- Content left Sec(4) Start here-->
-                    <video src="/videos/thesis.mp4" controls class="mb-[24px]">Video Not supported</video>
-                    <h3 class="hidden">Reimagine urban</h3>
-                    <p class="hidden">
+            <div class="sm:flex">
+                <div class="sm:w-[60%] sm:mr-[24px]  " >       <!-- Content left Sec(4) Start here-->
+                    <video src="/videos/thesis.mp4" controls class="mb-[24px] sm:m-0">Video Not supported</video>
+                    <h3 class="hidden sm:flex sm:mt-[24px] sm:text-2xl sm:font-semibold sm:mb-[8px]">Reimagine urban</h3>
+                    <p class="hidden sm:flex sm:mb-[32px]">
                         "Curabitur vitae libero in ipsum porttitor consequat. Aliquam et commodo lectus, nec consequat neque. Sed non accumsan urna. Phasellus sed consequat ex. Etiam eget magna laoreet, efficitur dolor consequat, tristique ligula."
                     </p>
                 </div>      <!-- Content left Sec(4) Start here-->
 
-                <div class="hidden">      <!-- Content right Right Sec(4) Start here -->
+                <div class="hidden sm:flex  sm:flex-col sm:w-[40%]  ">      <!-- Content right Right Sec(4) Start here -->
 
-                    <div class="hidden">     <!-- Card Sec(4) -->
-                        <img src="/public/images/thesis-fisma.jpg" alt="Fisma">
+                    <div class="hidden sm:flex sm:bg-slate-300 sm:hover:bg-slate-400 transition duration-300">     <!-- Card Sec(4) -->
+                        <img  src="./images/thesis-fisma.jpg" alt="Fisma" class="sm:w-[35%] h-auto sm:p-[16px]" >
 
-                        <div class="hidden">
+                        <div class="hidden sm:flex sm:flex-col sm:w-[65%] sm:justify-center ">
                             <h5 class="head-thesis-card">Fisma: Design and Prototype</h5>
                             <p>Designer showcase of new</p>
                             <span>protope product</span>
                         </div>
                     </div>
 
-                    <div class="hidden">     <!-- Card Sec(4) -->
-                        <img src="/public/images/thesis-now-and-then.jpg" alt="City">
+                    <div class="hidden sm:flex sm:bg-slate-300 sm:hover:bg-slate-400 transition duration-300">     <!-- Card Sec(4) -->
+                        <img src="./images/thesis-now-and-then.jpg" alt="City" class="sm:w-[35%] h-auto sm:p-[16px]">
 
-                        <div class="hidden">
+                        <div class="hidden sm:flex sm:flex-col sm:w-[65%] sm:justify-center">
                             <h5 class="head-thesis-card">Now and then</h5>
                             <p>Research study about New York</p>
                         </div>
@@ -253,9 +240,9 @@
 
     </main> <!------------ Main Start here ------------>
 
-    <footer class="my-[16px] mx-[16px] ">   <!-------------------footer start here------------------->
+    <footer class="my-[16px] mx-[16px] sm:mx-[24px] sm:flex sm:justify-between ">   <!-------------------footer start here------------------->
         <p>© 2016 Colmar Academy. All right reserved</p>
-        <div class="hidden">
+        <div class="hidden sm:flex sm:gap-3 ">
             <a href="#">Terms</a>
             <a href="#">Privacy</a>
         </div>

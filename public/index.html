@@ -38,10 +38,10 @@
         <section class="flex flex-col bg-slate-300 items-center 
         sm:flex-row  ">      
 
-            <div class="w-60% sm:mx-[24px] sm:my-[32px] ">
-                <img src="/public/images/banner.jpg" alt="banner" class="w-full" >
+            <div class="w-[60%] sm:mx-[24px] sm:my-[32px] sm:flex sm:flex-row ">
+                <img src="/public/images/banner.jpg" alt="banner" class="w-full h-auto" >
             </div>
-            <div class="py-[32px] px-[16px] ">
+            <div class="py-[32px] px-[16px] sm:w-[40%]  ">
                 <div class="">
                     <h2 class="text-3xl font-bold">Learn something new everyday</h2>
                     <p class="mt-[32px] text-2xl font-semibold">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
@@ -54,74 +54,88 @@
 
 
 
-        <section class="mx-[16px] mt-[16px]">       <!------------ Sec(2) Start here ------------>
+        <section class="mx-[16px] mt-[16px] sm:mx-[24px] sm:my-[32px]  sm:flex sm:flex-row ">       <!------------ Sec(2) Start here ------------>
 
-            <div class="hidden">      <!-- Container left Sec(2) Start here -->
-                <div class="">
-                    <img src="/public/images/information-main.jpg" alt="information">
+            <div class="hidden sm:flex sm:flex-col sm:w-[60%] sm:mr-[24px]"> <!-- Container left Sec(2) Start here -->
+                <div class="w-full flex justify-center mb-[32px]"> 
+                    <img src="/public/images/information-main.jpg" alt="information" class="w-auto h-auto">
                 </div>
-                <h2>It doesn't hurt to keep practicing</h2>
-                <p>
+                <h2 class="text-3xl font-bold mb-[24px]">It doesn't hurt to keep practicing</h2>
+                <p class="mb-[24px] ">
                     "Curabitur vitae libero in ipsum porttitor consequat. Aliquam et commodo lectus, nec consequat neque. Sed non accumsan urna. Phasellus sed consequat ex. Etiam eget magna laoreet, efficitur dolor consequat, tristique ligula."
                 </p>
-                <span>Emanuel, Sr Strategist at Hiring.com</span>
-            </div>           <!-- Container left Sec(2) End here -->
+                <span class="text-sm text-gray-500">Emanuel, Sr Strategist at Hiring.com</span>
+            </div>          <!-- Container left Sec(2) End here -->
             
-            <div class="">    <!-- Container Right Sec(2) Start here -->
-                <div class="mb-[64px]">    <!-- Card(1) infor -->
-                    <div class="card-img-infor">
+            <div class=" sm:w-[40%] ">    <!-- Container Right Sec(2) Start here -->
+                <div class="mb-[64px] sm:m-0 sm:p-[16px] sm:flex sm:bg-slate-300 sm:hover:bg-slate-400 transition duration-300">    <!-- Card(1) infor -->
+                    <div class="hidden sm:flex sm:h-auto sm:w-[35%]">
+                        <img src="/public/images/information-orientation.jpg" alt="Orientation"  class="w-full h-auto object-cover">
+                    </div>
+                    <div class="sm:hidden">
                         <img src="/public/images/information-orientation-mobile.jpg" alt="Orientation">
                     </div>
-                    <div class="ml-[16px] mt-[16px]">
+                    <div class="ml-[16px] mt-[16px] sm:w-[65%]">
                         <h4 class="text-2xl font-semibold">Orientation date</h4>
                         <p class="font-thin">Tue 10/11 & Wed 10/12: 8am-3pm</p>
                         <a href="#" class=" text-blue-500"  >Read more</a>
                     </div>
                 </div>
-                <div class="mb-[64px]">    <!-- Card(2) infor -->
-                    <div class="card-img-infor">
+
+                <div class="mb-[64px] sm:m-0 sm:p-[16px] sm:flex sm:bg-slate-300 sm:hover:bg-slate-400 transition duration-300">    <!-- Card(2) infor -->
+                    <div class="hidden sm:flex sm:h-auto sm:w-[35%]">
+                        <img src="/public/images/information-campus.jpg" alt="Our campus"  class="w-full h-auto object-cover">
+                    </div>
+                    <div class="sm:hidden">
                         <img src="/public/images/information-campus-mobile.jpg" alt="Our campus">
                     </div>
-                    <div class="ml-[16px] mt-[16px]">
+                    <div class="ml-[16px] mt-[16px] sm:w-[65%]">
                         <h4 class="text-2xl font-semibold">Our campus</h4>
                         <p class="font-thin">Find which campus is close by you</p>
                         <a href="#" class=" text-blue-500">Read more</a>
                     </div>
                 </div>
-                <div class="mb-[64px]">    <!-- Card(3) infor -->
-                    <div class="card-img-infor">
+
+                <div class="mb-[64px] sm:m-0 sm:p-[16px] sm:flex sm:bg-slate-300 sm:hover:bg-slate-400 transition duration-300">    <!-- Card(3) infor -->
+                    <div class="hidden sm:flex sm:h-auto sm:w-[35%]">
+                        <img src="/public/images/information-guest-lecture.jpg" alt="Our guest lecture"  class="w-full h-auto object-cover">
+                    </div>
+                    <div class="sm:hidden">
                         <img src="/public/images/information-guest-lecture-mobile.jpg" alt="Our guest lecture">
                     </div>
-                    <div class="ml-[16px] mt-[16px]">
+                    <div class="ml-[16px] mt-[16px] sm:w-[65%]">
                         <h4 class="text-2xl font-semibold">Our guest lecture</h4>
                         <p class="font-thin">Join a keynote with Oliver Sack about music in medical treatment</p>
                         <a href="#" class=" text-blue-500">Read more</a>
                     </div>
                 </div>
+
             </div>    <!-- Container Right Sec(2) End here -->
 
         </section>      <!------------ Sec(2) End here ------------>
 
-        <section class="">        <!------------ Sec(3) Start here ------------>
+            <!------------ Sec(3) Start here --------------------------------------------------------------------------->
 
-            <h2 class="text-3xl font-bold text-center mx-auto mb-[16px]">Start learning</h2>
+        <section class=" mx-[16px] ">    
+
+            <h2 class="text-3xl font-bold text-center mx-auto mb-[16px] sm:my-[32px]  ">Start learning</h2>
             <div class="container-card-course">
 
                 <div class="card-course-sec1">      <!-- Card Course Sec(1) Start here --> 
 
-                    <div class="card-course">
-                        <div class="hidden">
+                    <div class="mb-[8px] sm:m-0">
+                        <div class="hidden sm:flex">
                             <img src="/public/images/course-software.jpg" alt="Software engineering">
                         </div>
                         
                         <div class="bg-gray-300 hover:bg-blue-300 transition duration-300" >
-                            <h4 class="text-2xl font-semibold pl-[16px] pt-[16px] pb-[24px] ">Software engineering</h4>
-                            <p class="hidden">COURSES</p>
-                            <p class="hidden">Web Development, Mobile Development, iOT,APIs</p>
+                            <h4 class="text-2xl font-semibold pl-[16px] pt-[16px] pb-[24px] sm:p-0 ">Software engineering</h4>
+                            <p class="hidden sm:flex">COURSES</p>
+                            <p class="hidden sm:flex">Web Development, Mobile Development, iOT,APIs</p>
                         </div>
                     </div>
                     
-                    <div class="card-course">
+                    <div class="mb-[8px]">
                         <div class="hidden">
                             <img src="/public/images/course-software.jpg" alt="Software engineering">
                         </div>
@@ -135,7 +149,7 @@
                         </div>
                     </div>
 
-                    <div class="card-course">
+                    <div class="mb-[8px]">
                         <div class="hidden">
                             <img src="/public/images/course-design.jpg" alt="Design">
                         </div>
@@ -151,7 +165,7 @@
                 <div class="card-course-sec2">     <!-- Card Course Sec(2) Start here --> 
 
                     
-                    <div class="card-course">
+                    <div class="mb-[8px]">
                         <div class="hidden">
                             <img src="/public/images/course-data.jpg" alt="Data">
                         </div>
@@ -165,7 +179,7 @@
                     
 
                     
-                    <div class="card-course">
+                    <div class="mb-[8px]">
                         <div class="hidden">
                         <img src="/public/images/course-business.jpg" alt="Business">
                         </div>
@@ -179,7 +193,7 @@
                     </div>
                     
 
-                        <div class="card-course">
+                        <div class="mb-[8px]">
                             <div class="hidden">
                                 <img src="/public/images/course-marketing.jpg" alt="Marketing">
                             </div>
@@ -197,36 +211,36 @@
 
         </section>      <!------------ Sec(3) End here ------------>
 
+         <!------------ Sec(4) Start here -------------------------------------------------------------------------------------------->
+        <section class="mt-[32px] ">       
 
-        <section class="mt-[64px]">        <!------------ Sec(4) Start here ------------>
+            <h2 class="text-3xl font-bold text-center mx-auto mb-[16px] " >Thesis exhibit</h2>
 
-            <h2>Thesis exhibit</h2>
-
-            <div class="container-thesis">
+            <div class="">
                 <div class="content-thesis-left">       <!-- Content left Sec(4) Start here-->
-                    <video src="/videos/thesis.mp4" controls>Video Not supported</video>
-                    <h3 class="head-thesis-left">Reimagine urban</h3>
-                    <p class="description-thesis-left">
+                    <video src="/videos/thesis.mp4" controls class="mb-[24px]">Video Not supported</video>
+                    <h3 class="hidden">Reimagine urban</h3>
+                    <p class="hidden">
                         "Curabitur vitae libero in ipsum porttitor consequat. Aliquam et commodo lectus, nec consequat neque. Sed non accumsan urna. Phasellus sed consequat ex. Etiam eget magna laoreet, efficitur dolor consequat, tristique ligula."
                     </p>
                 </div>      <!-- Content left Sec(4) Start here-->
 
-                <div class="content-thesis-right">      <!-- Content right Right Sec(4) Start here -->
+                <div class="hidden">      <!-- Content right Right Sec(4) Start here -->
 
-                    <div class="card-thesis-container">     <!-- Card Sec(4) -->
+                    <div class="hidden">     <!-- Card Sec(4) -->
                         <img src="/images/thesis-fisma.jpg" alt="Fisma">
 
-                        <div class="card-description-thesis">
+                        <div class="hidden">
                             <h5 class="head-thesis-card">Fisma: Design and Prototype</h5>
                             <p>Designer showcase of new</p>
                             <span>protope product</span>
                         </div>
                     </div>
 
-                    <div class="card-thesis-container">     <!-- Card Sec(4) -->
+                    <div class="hidden">     <!-- Card Sec(4) -->
                         <img src="/images/thesis-now-and-then.jpg" alt="City">
 
-                        <div class="card-description-thesis">
+                        <div class="hidden">
                             <h5 class="head-thesis-card">Now and then</h5>
                             <p>Research study about New York</p>
                         </div>
@@ -239,9 +253,9 @@
 
     </main> <!------------ Main Start here ------------>
 
-    <footer>   <!-------------------footer start here------------------->
+    <footer class="my-[16px] mx-[16px] ">   <!-------------------footer start here------------------->
         <p>© 2016 Colmar Academy. All right reserved</p>
-        <div class="footer">
+        <div class="hidden">
             <a href="#">Terms</a>
             <a href="#">Privacy</a>
         </div>

@@ -1,0 +1,13 @@
+{
+    "headers": [
+      {
+        "source": "/thesis.mp4",
+        "headers": [
+          {
+            "key": "Access-Control-Allow-Origin",
+            "value": "*"
+          }
+        ]
+      }
+    ]
+  }

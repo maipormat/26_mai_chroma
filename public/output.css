@@ -933,6 +933,10 @@ video {
 }
 
 @media (min-width: 640px) {
+  .sm\:col-span-1 {
+    grid-column: span 1 / span 1;
+  }
+
   .sm\:m-0 {
     margin: 0px;
   }
@@ -1009,6 +1013,10 @@ video {
     width: 65%;
   }
 
+  .sm\:w-\[48\%\] {
+    width: 48%;
+  }
+
   .sm\:grid-cols-3 {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
@@ -1021,8 +1029,16 @@ video {
     flex-direction: column;
   }
 
+  .sm\:flex-wrap {
+    flex-wrap: wrap;
+  }
+
   .sm\:justify-center {
     justify-content: center;
+  }
+
+  .sm\:justify-between {
+    justify-content: space-between;
   }
 
   .sm\:gap-\[24px\] {

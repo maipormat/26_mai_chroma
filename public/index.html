@@ -7,8 +7,9 @@
     <link rel="stylesheet" href="../public/output.css" />
 </head>
 <body class="mx-[24px]">
+    <!----------------- header Start here ----------------->
     <header >
-        <nav class=" flex items-center justify-between h-[64px] border border-red-500">       <!-- menubar desktop -->
+        <nav class="hidden sm:flex items-center justify-between h-[64px] ">       <!-- menubar desktop -->
             <a href="#" class="flex items-center  h-[32px] ">     <!-- logo  -->
                 <img src="/public/images/ic-logo.svg" alt="logo">
                 <span class=""><strong>COLMAR</strong>ACADEMY</span>
@@ -22,6 +23,14 @@
             </ul>
         </nav>
 
+        <nav class="flex sm:hidden ">      <!-- menu mobile -->
+            <a href="#"><img src="/public/images/ic-logo.svg" alt="logo"></a>
+            <a href="#"><img src="/public/images/ic-on-campus.svg" alt="On campus"></a>
+            <a href="#"><img src="/public/images/ic-online.svg" alt="Online"></a>
+            <a href="#"><img src="/public/images/ic-login.svg" alt="Sign in"></a>            
+        </nav>
+    </header>       
+    <!------------------- header End here ------------------------>
 
 </body>
 </html>

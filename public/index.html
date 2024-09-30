@@ -6,13 +6,13 @@
     <title>Document</title>
     <link rel="stylesheet" href="../public/output.css" />
 </head>
-<body class="sm:mx-[24px]">
+<body class="">
     <!----------------- header Start here ----------------->
-    <header class="mx-[16px] " >
-        <nav class=" hidden sm:flex justify-between h-[64px]  items-center ">       <!-- menubar desktop -->
+    <header class="sm:mx-[24px]" >
+        <nav class=" hidden sm:flex h-[64px]  items-center justify-between ">       <!-- menubar desktop -->
             <a href="#" class="flex items-center  h-[32px] ">     <!-- logo  -->
                 <img src="/public/images/ic-logo.svg" alt="logo">
-                <span class=""><strong>COLMAR</strong>ACADEMY</span>
+                <span class="h-[32px]"><strong>COLMAR</strong>ACADEMY</span>
             </a> 
 
             <ul class="flex gap-[16px] ">
@@ -23,7 +23,7 @@
             </ul>
         </nav>
 
-        <nav class="flex sm:hidden justify-between h-[64px] items-center">      <!-- menu mobile -->
+        <nav class="flex sm:hidden justify-around h-[64px] items-center">      <!-- menu mobile -->
             <a href="#"><img src="/public/images/ic-logo.svg" alt="logo"></a>
             <a href="#"><img src="/public/images/ic-on-campus.svg" alt="On campus"></a>
             <a href="#"><img src="/public/images/ic-online.svg" alt="Online"></a>
@@ -34,14 +34,14 @@
 
     <!------------------- main start here ------------------------>
             
-    <main class="">
-        <section class="flex flex-col bg-slate-300
-        items-center lg:gap-[24px]  ">      <!------------ Sec(1) Start here ------------>
+    <main class=""> <!------------ Sec(1) Start here ------------>
+        <section class="flex flex-col bg-slate-300 items-center 
+        sm:flex-row  ">      
 
-            <div class=" mx-0  w-full lg:w-[60%] ">
+            <div class="w-60% sm:mx-[24px] sm:my-[32px] ">
                 <img src="/public/images/banner.jpg" alt="banner" class="w-full" >
             </div>
-            <div class="mx-[16px] py-[32px] ">
+            <div class="py-[32px] px-[16px] ">
                 <div class="">
                     <h2 class="text-3xl font-bold">Learn something new everyday</h2>
                     <p class="mt-[32px] text-2xl font-semibold">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
@@ -50,6 +50,202 @@
             </div>
 
         </section>      <!------------ Sec(1) End here ------------>
-    </main>
+
+
+
+
+        <section class="mx-[16px] mt-[16px]">       <!------------ Sec(2) Start here ------------>
+
+            <div class="hidden">      <!-- Container left Sec(2) Start here -->
+                <div class="">
+                    <img src="/public/images/information-main.jpg" alt="information">
+                </div>
+                <h2>It doesn't hurt to keep practicing</h2>
+                <p>
+                    "Curabitur vitae libero in ipsum porttitor consequat. Aliquam et commodo lectus, nec consequat neque. Sed non accumsan urna. Phasellus sed consequat ex. Etiam eget magna laoreet, efficitur dolor consequat, tristique ligula."
+                </p>
+                <span>Emanuel, Sr Strategist at Hiring.com</span>
+            </div>           <!-- Container left Sec(2) End here -->
+            
+            <div class="">    <!-- Container Right Sec(2) Start here -->
+                <div class="mb-[64px]">    <!-- Card(1) infor -->
+                    <div class="card-img-infor">
+                        <img src="/public/images/information-orientation-mobile.jpg" alt="Orientation">
+                    </div>
+                    <div class="ml-[16px] mt-[16px]">
+                        <h4 class="text-2xl font-semibold">Orientation date</h4>
+                        <p class="font-thin">Tue 10/11 & Wed 10/12: 8am-3pm</p>
+                        <a href="#" class=" text-blue-500"  >Read more</a>
+                    </div>
+                </div>
+                <div class="mb-[64px]">    <!-- Card(2) infor -->
+                    <div class="card-img-infor">
+                        <img src="/public/images/information-campus-mobile.jpg" alt="Our campus">
+                    </div>
+                    <div class="ml-[16px] mt-[16px]">
+                        <h4 class="text-2xl font-semibold">Our campus</h4>
+                        <p class="font-thin">Find which campus is close by you</p>
+                        <a href="#" class=" text-blue-500">Read more</a>
+                    </div>
+                </div>
+                <div class="mb-[64px]">    <!-- Card(3) infor -->
+                    <div class="card-img-infor">
+                        <img src="/public/images/information-guest-lecture-mobile.jpg" alt="Our guest lecture">
+                    </div>
+                    <div class="ml-[16px] mt-[16px]">
+                        <h4 class="text-2xl font-semibold">Our guest lecture</h4>
+                        <p class="font-thin">Join a keynote with Oliver Sack about music in medical treatment</p>
+                        <a href="#" class=" text-blue-500">Read more</a>
+                    </div>
+                </div>
+            </div>    <!-- Container Right Sec(2) End here -->
+
+        </section>      <!------------ Sec(2) End here ------------>
+
+        <section class="">        <!------------ Sec(3) Start here ------------>
+
+            <h2 class="text-3xl font-bold text-center mx-auto mb-[16px]">Start learning</h2>
+            <div class="container-card-course">
+
+                <div class="card-course-sec1">      <!-- Card Course Sec(1) Start here --> 
+
+                    <div class="card-course">
+                        <div class="hidden">
+                            <img src="/public/images/course-software.jpg" alt="Software engineering">
+                        </div>
+                        
+                        <div class="bg-gray-300 hover:bg-blue-300 transition duration-300" >
+                            <h4 class="text-2xl font-semibold pl-[16px] pt-[16px] pb-[24px] ">Software engineering</h4>
+                            <p class="hidden">COURSES</p>
+                            <p class="hidden">Web Development, Mobile Development, iOT,APIs</p>
+                        </div>
+                    </div>
+                    
+                    <div class="card-course">
+                        <div class="hidden">
+                            <img src="/public/images/course-software.jpg" alt="Software engineering">
+                        </div>
+                   
+                        <div class="bg-gray-300 hover:bg-blue-300 transition duration-300">
+                            <h4 class="text-2xl font-semibold pl-[16px] pt-[16px] pb-[24px] ">Computer art</h4>
+                            <p class="hidden">COURSES</p>
+                            <p class="hidden">
+                                Imaging & Design, Web Design, Motion Graphics & Visual Effects, Computer Animation
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="card-course">
+                        <div class="hidden">
+                            <img src="/public/images/course-design.jpg" alt="Design">
+                        </div>
+                       
+                        <div class="bg-gray-300 hover:bg-blue-300 transition duration-300">
+                            <h4 class="text-2xl font-semibold pl-[16px] pt-[16px] pb-[24px] ">Design</h4>
+                            <p class="hidden">COURSES</p>
+                            <p class="hidden">User Experience Design, User Research, Visual Design</p>
+                        </div>
+                    </div>
+                </div>      <!-- Card Course Sec(1) End here --> 
+
+                <div class="card-course-sec2">     <!-- Card Course Sec(2) Start here --> 
+
+                    
+                    <div class="card-course">
+                        <div class="hidden">
+                            <img src="/public/images/course-data.jpg" alt="Data">
+                        </div>
+                       
+                        <div class="bg-gray-300 hover:bg-blue-300 transition duration-300">
+                            <h4 class="text-2xl font-semibold pl-[16px] pt-[16px] pb-[24px] ">Data</h4>
+                            <p class="hidden">COURSES</p>
+                            <p class="hidden">Data Science, Big Data, SQL, Data Visualization</p>
+                        </div>
+                    </div>
+                    
+
+                    
+                    <div class="card-course">
+                        <div class="hidden">
+                        <img src="/public/images/course-business.jpg" alt="Business">
+                        </div>
+                        
+    
+                        <div class="bg-gray-300 hover:bg-blue-300 transition duration-300">
+                            <h4 class="text-2xl font-semibold pl-[16px] pt-[16px] pb-[24px] ">Business</h4>
+                            <p class="hidden">COURSES</p>
+                            <p class="hidden">Product Development, Business Development, Startup</p>
+                        </div>
+                    </div>
+                    
+
+                        <div class="card-course">
+                            <div class="hidden">
+                                <img src="/public/images/course-marketing.jpg" alt="Marketing">
+                            </div>
+                           
+        
+                            <div class="bg-gray-300 hover:bg-blue-300 transition duration-300">
+                                <h4 class="text-2xl font-semibold pl-[16px] pt-[16px] pb-[24px] ">Marketing</h4>
+                                <p class="hidden">COURSES</p>
+                                <p class="hidden">Analytics, Content Marketing, Mobile Marketing</p>
+                        </div>
+                    </div>
+                    
+                </div>      <!-- Card Course Sec(2) End here --> 
+            </div>
+
+        </section>      <!------------ Sec(3) End here ------------>
+
+
+        <section class="mt-[64px]">        <!------------ Sec(4) Start here ------------>
+
+            <h2>Thesis exhibit</h2>
+
+            <div class="container-thesis">
+                <div class="content-thesis-left">       <!-- Content left Sec(4) Start here-->
+                    <video src="/videos/thesis.mp4" controls>Video Not supported</video>
+                    <h3 class="head-thesis-left">Reimagine urban</h3>
+                    <p class="description-thesis-left">
+                        "Curabitur vitae libero in ipsum porttitor consequat. Aliquam et commodo lectus, nec consequat neque. Sed non accumsan urna. Phasellus sed consequat ex. Etiam eget magna laoreet, efficitur dolor consequat, tristique ligula."
+                    </p>
+                </div>      <!-- Content left Sec(4) Start here-->
+
+                <div class="content-thesis-right">      <!-- Content right Right Sec(4) Start here -->
+
+                    <div class="card-thesis-container">     <!-- Card Sec(4) -->
+                        <img src="/images/thesis-fisma.jpg" alt="Fisma">
+
+                        <div class="card-description-thesis">
+                            <h5 class="head-thesis-card">Fisma: Design and Prototype</h5>
+                            <p>Designer showcase of new</p>
+                            <span>protope product</span>
+                        </div>
+                    </div>
+
+                    <div class="card-thesis-container">     <!-- Card Sec(4) -->
+                        <img src="/images/thesis-now-and-then.jpg" alt="City">
+
+                        <div class="card-description-thesis">
+                            <h5 class="head-thesis-card">Now and then</h5>
+                            <p>Research study about New York</p>
+                        </div>
+                    </div>
+
+                </div>        <!-- Content right Right Sec(4) End here -->
+            </div>
+
+        </section>      <!------------ Sec(4) End here ------------>
+
+    </main> <!------------ Main Start here ------------>
+
+    <footer>   <!-------------------footer start here------------------->
+        <p>© 2016 Colmar Academy. All right reserved</p>
+        <div class="footer">
+            <a href="#">Terms</a>
+            <a href="#">Privacy</a>
+        </div>
+</footer>   <!-------------------footer end here------------------->
+
 </body>
 </html>
